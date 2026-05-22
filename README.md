@@ -60,28 +60,4 @@
 2. Выбрать комплект сборки Qt.
 3. Собрать и запустить проект.
 
-Также можно собрать через терминал:
-
-```bash
-cd application
-mkdir build
-cd build
-cmake ..
-cmake --build .
-
-## Структура проекта
-
-application/
-├── *.h
-├── *.cpp
-├── *.ui
-└── CMakeLists.txt
-
-uml_diagrams/
-└── UML-диаграммы проекта
-
-UML.py
-README.md
-
 ## Автор: kotysheff
-## Лабораторная работа №8 по объектно-ориентированному программированию.
