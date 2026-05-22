@@ -1,0 +1,86 @@
+# Build directories
+build/
+cmake-build-*/
+application/build/
+**/build/
+out/
+bin/
+
+# CMake generated files
+CMakeCache.txt
+CMakeCache.txt.prev
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+DartConfiguration.tcl
+Testing/
+install_manifest.txt
+compile_commands.json
+CMakeConfigureLog.yaml
+qtcsettings.cmake
+
+# Qt generated files
+*_autogen/
+moc_*.cpp
+moc_*.cpp.d
+qrc_*.cpp
+ui_*.h
+mocs_compilation.cpp
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+
+# Object and binary files
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.app
+*.out
+*.dSYM/
+*.pdb
+*.ilk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.orig
+output.txt
+cpp_files_output.txt
+
+# Reports and academic/private materials
+*.doc
+*.docx
+*.rtf
+*.xmind
+
+# Python helper environment, if UML scripts were used locally
+Pipfile
+Pipfile.lock
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# UML generated files
+uml_diagrams/
+UML.py
